@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: Geneva, Tahoma, sans-serif;
+    margin: 0;
+
+}
+
+/* card */
+.section{
+    position: relative;
+    top: 110px;
+    left: 590px;    
+    width: 400px;
+    height: 400px;
+    background-color: #f2f2f2; 
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+
+}
+
+/* profil */
+.profil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 280px;
+    top: 25px;
+    left: 50px;
+    justify-content: center;
+    align-items:center;
+}
+
+.photo{
+    width: 120px;
+    height: 120px;
+}
+
+.texte{
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+
+.gras{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+
+/* reseau */
+.reseau{
+    position: relative;
+    top: 150px;
+    right: 100px;
+    height: 50px;
+    width: 300px;
+}
+
+.icon-reseau{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 50px;
+    list-style: none;
+    left: 146px;
+    bottom: 180px;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+/* buttons */
+.b3{
+ position: relative;
+ width: 300px;
+ height: 40px;
+ padding: 5px;
+ bottom: 36px;
+ left: 50px;
+ display: flex;
+ justify-items: center;
+ flex-direction: row;
+ gap: 15px;
+}
+
+.b1{
+    width: 140px;
+    height: 40px; 
+    background-color: #f2f2f2; 
+    color: #1B78F2;
+    border: 1px solid #1B78F2;
+    border-radius: 5px;
+    
+}
+
+.b2{
+    width: 140px;
+    height: 40px;    
+    background-color: #1B78F2; 
+    color: #f2f2f2;
+    border: 1px solid #1B78F2;
+    border-radius: 5px;
+} 
